@@ -1,2 +1,2 @@
 # practice_python_for_bruno
-ブルーノさんPython練習用リポジトリ
+Python練習用リポジトリ
