@@ -1,0 +1,11 @@
+{
+	"name": "Python Sample",
+	// Dockerfileでイメージ・コンテナを作成
+	"dockerFile": "Dockerfile",
+	// リモート先のVS Codeにインストールする拡張機能
+	"extensions": [
+		"ms-python.python"
+	],
+	// コンテナ生成時にコマンド実行
+	"postCreateCommand": "pip3 install beautifulsoup4 && pip3 install html5lib",
+}
