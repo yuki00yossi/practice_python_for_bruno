@@ -21,7 +21,7 @@ while True:
 
 
 # 数字を判定して、数字の倍数ごとに「buzz」「fizz」「buzzfizz」を表示する
-for i in range(number3 + 1):
+for i in range(1,number3 + 1):
 
 # 出力された数字がnumber1かnumber2のいずれかもしくは両方の倍数だった場合は「buzz」「fizz」を表示する
     
