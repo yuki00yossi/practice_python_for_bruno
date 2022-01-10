@@ -19,15 +19,12 @@ def input_numbers():
         [fizz_num, buzz_num, max_num]
     """
     while True:
-        try:
-            fizz_num = input("Fizzの値を入力してください。: ")
-            buzz_num = input("Buzzの値を入力してください。: ")
-            max_num = input("出力する最大値を入力してください。: ")
-            # バリデーション呼び出し
-            validated_data = valid_data(fizz_num, buzz_num, max_num)
-            if not validated_data:
-                raise ValueError
-        except ValueError as e:
+        fizz_num = input("Fizzの値を入力してください。: ")
+        buzz_num = input("Buzzの値を入力してください。: ")
+        max_num = input("出力する最大値を入力してください。: ")
+        # バリデーション呼び出し
+        validated_data = valid_data(fizz_num, buzz_num, max_num)
+        if not validated_data:
             print("入力された数値が不正です。もう一度入力してください。")
             continue
         break
